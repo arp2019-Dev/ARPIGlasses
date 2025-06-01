@@ -36,3 +36,13 @@ https://phydemo.app/ray-optics/simulator/
 
 
 **Total time spent: 2h**
+
+# MAY 31st: Optics and Electronics
+
+So I forgot to log my previous 3 days, so I'm gonna  put a very long one here. I did some more simulating to try to visualize how the beam splitter will be positioned in front of my eyes to be in focus. For version 1, I plan to have a beam splitter cube perpendicular to the display on each side, as shown in the drawing below. To get the image to translate to the side a bit, I'll use a 45-degree mirror to reflect the incoming image towards the beam splitter, which then combines the light from outside and the image. Additionally, I started thinking about my image processing. In order to minimize the size of the glasses and increase power, I am going to sideload the processing to a phone that then transmits the image and data to a smaller processor on the glasses. I'm probably going to use a Raspberry Pi chip. I will also need to control the display, and controlling two micro OLEDs is not easy. I have 2 options, the safer one is using a dual display set used for VR goggles, and downsizing the PCB. The better cooler method is to fully make my own PCB for this. I'll need to use an HDMI bridge and an LVDS driver. Currently thinking of using the ADV7513 for HDMI encoding, TFP401A for HDMI to RGB, SN75LVDS83B	for RGB to LVDS, ECX334AF for the display (Sony display nice), VS23S010 for SPI video mem.
+
+Image for optic placement:
+![IMG_3280](https://github.com/user-attachments/assets/bfef72bd-345f-455f-a6eb-777c6332f06f)
+
+
+**Total time spent: 8h**
