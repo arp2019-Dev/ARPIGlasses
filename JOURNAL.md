@@ -46,3 +46,20 @@ Image for optic placement:
 
 
 **Total time spent: 8h**
+
+# JUNE 1st: Optical Calculations & display considerations
+
+So I worked more on the calculations for the lens I need to use to focus the display into my eye. Essentially, using the thin lens equation, I can see from what distances the focal length needed for the image to comfortably focus on my eye. I want to follow a similar design to the BirdBath lens system, which works like this (image below). The image goes down and away from the eye using a beam splitter, then is reflected back into the eye. My calculation for the focus lens gave me a 13.8mm focal length when the display is ~12mm away from the eye.
+In order to keep this low cost and easy to code, and small, I'm going to be using 2 Y16A 0.2 VGA displays and a 5MP OV5693 AF camera for the ML.
+
+Birdbath lens:
+<img width="1137" alt="Screenshot 2025-06-02 at 10 57 34 PM" src="https://github.com/user-attachments/assets/63ea4ddf-44d8-4277-b187-0add3d887775" />
+
+My focal length calculations:
+![IMG_3285](https://github.com/user-attachments/assets/b2a1f4d8-a304-4253-bbe0-c6f6113ca08f)
+![IMG_3284](https://github.com/user-attachments/assets/6c4954e8-edbc-4f8d-8755-5a182f0dcbcb)
+
+Optics Sim for simplified lens system:
+<img width="557" alt="Screenshot 2025-06-02 at 10 59 40 PM" src="https://github.com/user-attachments/assets/37ca5210-65b4-4a37-bd04-abc210b6db69" />
+
+**Total time spent: 4h**
