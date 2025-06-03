@@ -13,7 +13,7 @@ I looked at how many expensive smart glasses work, and most use a micro OLED dis
 A great example of an optics system is the Google Glass Explorer, which uses a beam splitter and mirror to focus the light.
 <img width="563" alt="Screenshot 2025-05-23 at 10 08 52 PM" src="https://github.com/user-attachments/assets/a083e56a-e7a4-4376-aa7e-06108bcde340" />
 
-**Total time spent: 4h**
+**Session time spent: 4h**
 
 # MAY 24th: More research on the optics for some types of glasses
 
@@ -24,7 +24,7 @@ An image to visualize the law of reflection. (courtesy of https://courses.lumenl
 
 Unfortunately, idk where my paper with some of my calculations went since I just did some while researching. If I find it, ill place it here.
 
-**Total time spent: 3h**
+**Session time spent: 3h**
 
 # MAY 25th: Did some display research
 
@@ -35,7 +35,7 @@ https://phydemo.app/ray-optics/simulator/
 <img width="566" alt="Screenshot 2025-05-25 at 10 27 39 PM" src="https://github.com/user-attachments/assets/e305404b-c046-46ca-82e4-b8c9de7e55bf" />
 
 
-**Total time spent: 2h**
+**Session time spent: 2h**
 
 # MAY 31st: Optics and Electronics
 
@@ -45,7 +45,7 @@ Image for optic placement:
 ![IMG_3280](https://github.com/user-attachments/assets/bfef72bd-345f-455f-a6eb-777c6332f06f)
 
 
-**Total time spent: 8h**
+**Session time spent: 8h**
 
 # JUNE 1st: Optical Calculations & display considerations
 
@@ -62,4 +62,4 @@ My focal length calculations:
 Optics Sim for simplified lens system:
 <img width="557" alt="Screenshot 2025-06-02 at 10 59 40 PM" src="https://github.com/user-attachments/assets/37ca5210-65b4-4a37-bd04-abc210b6db69" />
 
-**Total time spent: 4h**
+**Session time spent: 4h**
