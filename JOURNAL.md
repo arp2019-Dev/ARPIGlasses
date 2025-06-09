@@ -64,7 +64,7 @@ Optics Sim for simplified lens system:
 
 **Session time spent: 4h**
 
-# JUNE 17th: Mainbaord
+# JUNE 7th: Mainbaord
 
 Started work on the main board that will control all this. I am taking a small pause from the optics to focus on how I'm going to control the displays and sensors. I am going to be using an Allwinner H618 MCU with 1 GB of DDR4, similar to the Orange Pi Zero 2 W. I'm currently designing my PCB for this and facing a few issues with signal timing. Ram needs very specific signal timing and track lengths in order to work, so it's gonna take a lot of manual routing for that. I'm first going to design the schematic for the main part, then integrate the display drivers, camera, and sensors I want for this first version. I also started thinking about the BoM and yeah ima a need the full 350 lol this stuff gets expensive so fast I hate it. In order to gather good data for the head position, I'm using an MPU9520, which is a 9-DOF gyro that's great for sensor fusion. I would go with a BNO500, but that's too expensive and not needed for this. 
 
@@ -72,4 +72,16 @@ Easy EDA MCU basic schematic:
 <img width="704" alt="Screenshot 2025-06-07 at 5 05 34 PM" src="https://github.com/user-attachments/assets/a04e4be5-e596-4af2-ac76-eab7742071a0" />
 
 **Session time spent: 8h**
+
+# JUNE 8th: Mainboard and some rough CAD
+
+Continued my work on the main board, with so many connections, and I have immense respect for people who do this for a living. I figured out what wirless chip to use and im using the CDW-20U5622-00 which has wifi+bt. Im also looking at diffrent cameras since the current one im thinking off may be too big and I need something small. I also worked on a small model for the glasses and how and what shape the mainboard is gonna be and where its mounting. Its gonna be at the top in front of my eyes and the displays under it. Its gonna be big but hey its a start. Update from before I got the power chip connected in the schematic and most of the LPDDR4 connections.
+
+Current Schematic:
+<img width="629" alt="Screenshot 2025-06-08 at 11 24 08 PM" src="https://github.com/user-attachments/assets/d5373d1d-0313-41d3-b561-2f8e6725a92e" />
+
+CAD of glasses and Board Position Version 1:
+<img width="714" alt="Screenshot 2025-06-08 at 11 28 55 PM" src="https://github.com/user-attachments/assets/b76f4066-e343-4b74-9fa4-a14d31a08cdd" />
+
+**Session time spent: 5h**
 
