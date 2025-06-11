@@ -85,7 +85,7 @@ CAD of glasses and Board Position Version 1:
 
 **Session time spent: 5h**
 
-# JUNE 8th: Mainboard RAM
+# JUNE 10th: Mainboard RAM
 
 I finally finished the schematic for the RAM part. The harder part is later when it's time to route traces :(. I still need to work on the wireless chips and pads for IO and one USB-C port, for the AV displays, I'm just using the native TV out on the H618 chip, and then splitting it into two outs. The displays will show the same things, but that's fine for this prototype. Later on, I might implement an HDMI to AV chip so we can have two different displays. Going to work on some optics layout CAD now. Wish me luck.
 
