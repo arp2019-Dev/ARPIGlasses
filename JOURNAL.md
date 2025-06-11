@@ -75,7 +75,7 @@ Easy EDA MCU basic schematic:
 
 # JUNE 8th: Mainboard and some rough CAD
 
-Continued my work on the main board, with so many connections, and I have immense respect for people who do this for a living. I figured out what wirless chip to use and im using the CDW-20U5622-00 which has wifi+bt. Im also looking at diffrent cameras since the current one im thinking off may be too big and I need something small. I also worked on a small model for the glasses and how and what shape the mainboard is gonna be and where its mounting. Its gonna be at the top in front of my eyes and the displays under it. Its gonna be big but hey its a start. Update from before I got the power chip connected in the schematic and most of the LPDDR4 connections.
+Continued my work on the main board, with so many connections, and I have immense respect for people who do this for a living. I figured out what wireless chip to use, and I'm using the CDW-20U5622-00, which has Wi-Fi+BT. I'm also looking at different cameras since the current one I'm thinking of may be too big, and I need something small. I also worked on a small model for the glasses and how and what shape the mainboard is gonna be, and where it's mounting. It's gonna be at the top in front of my eyes and the displays under it. It's gonna be big, but hey, it's a start. Update from before I got the power chip connected in the schematic and most of the LPDDR4 connections.
 
 Current Schematic:
 <img width="629" alt="Screenshot 2025-06-08 at 11 24 08 PM" src="https://github.com/user-attachments/assets/d5373d1d-0313-41d3-b561-2f8e6725a92e" />
@@ -84,4 +84,13 @@ CAD of glasses and Board Position Version 1:
 <img width="714" alt="Screenshot 2025-06-08 at 11 28 55 PM" src="https://github.com/user-attachments/assets/b76f4066-e343-4b74-9fa4-a14d31a08cdd" />
 
 **Session time spent: 5h**
+
+# JUNE 8th: Mainboard RAM
+
+I finally finished the schematic for the RAM part. The harder part is later when it's time to route traces :(. I still need to work on the wireless chips and pads for IO and one USB-C port, for the AV displays, I'm just using the native TV out on the H618 chip, and then splitting it into two outs. The displays will show the same things, but that's fine for this prototype. Later on, I might implement an HDMI to AV chip so we can have two different displays. Going to work on some optics layout CAD now. Wish me luck.
+
+Current Schematic:
+<img width="623" alt="Screenshot 2025-06-10 at 9 40 05 PM" src="https://github.com/user-attachments/assets/cfd5adfe-8ff3-4e38-a9f2-005d01109cce" />
+
+**Session time spent: 2h**
 
