@@ -94,3 +94,31 @@ Current Schematic:
 
 **Session time spent: 2h**
 
+# JUNE 12th: Glass CAD
+
+I started working on the CAD for the glasses using what I know will be used and the measurements I'm sure about. Turns out I need to use a polarizing beam splitter instead of a regular one due to how the light from an lcd is emitted. The polarized light will go into my eye, and then the unpolarized light from the sun will go in too, without degrading quality. I will also be using a 2s lipo for power and step it down to 5v so that it can power the displays and the mainboard without dying. I also did some optical simulations for how the light should theoretically travel. Also, did some research on how to figure out my lens system. To focus and magnify the image, I'll be using two lenses. Calculated using the thin lens equation and the angular magnification equation. For the magnification, I'll just use a Fresnel lens since it's small and thin. As an intermediary between lenses, I'll be using clear acrylic that will be polished with heat and sandpaper.
+| Setup            | Lenses | Best For                            | Trade-Offs                         |
+| ---------------- | ------ | ----------------------------------- | ---------------------------------- |
+| Single lens      | 1      | Simplicity, small form factor       | Distortion, limited FOV            |
+| Galilean system  | 2      | Compact with decent image placement | Narrower FOV, trickier optics      |
+| Keplerian system | 2      | Best clarity and FOV                | Bigger, heavier, real image formed |
+
+| Material            | Refractive Index (n)  |
+| ------------------- | --------------------- |
+| Acrylic             | ~1.49                 |
+| Glass               | ~1.52–1.54            |
+| Optical Glass       | ~1.5168               |
+
+
+
+Prototype Model #1:
+![Screenshot 2025-06-12 at 1 16 24 AM](https://github.com/user-attachments/assets/28891fa9-70c4-4d1f-b296-b02b9a37f980)
+![Screenshot 2025-06-12 at 1 16 40 AM](https://github.com/user-attachments/assets/a92a192f-efa8-4822-b036-b716a88348c2)
+
+Optical Sim (Front View):
+![Screenshot 2025-06-12 at 1 17 56 AM](https://github.com/user-attachments/assets/7e8c64c6-c331-481a-be06-26217e7821f0)
+
+Optical Sim (Top View):
+![Screenshot 2025-06-12 at 1 18 18 AM](https://github.com/user-attachments/assets/99b74de7-5ea2-4385-9ab9-749323f121ee)
+
+**Session time spent: 6h**
