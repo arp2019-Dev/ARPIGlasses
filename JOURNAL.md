@@ -97,11 +97,11 @@ Current Schematic:
 # JUNE 12th: Glass CAD
 
 I started working on the CAD for the glasses using what I know will be used and the measurements I'm sure about. Turns out I need to use a polarizing beam splitter instead of a regular one due to how the light from an lcd is emitted. The polarized light will go into my eye, and then the unpolarized light from the sun will go in too, without degrading quality. I will also be using a 2s lipo for power and step it down to 5v so that it can power the displays and the mainboard without dying. I also did some optical simulations for how the light should theoretically travel. Also, did some research on how to figure out my lens system. To focus and magnify the image, I'll be using two lenses. Calculated using the thin lens equation and the angular magnification equation. For the magnification, I'll just use a Fresnel lens since it's small and thin. As an intermediary between lenses, I'll be using clear acrylic that will be polished with heat and sandpaper.
-| Setup            | Lenses | Best For                            | Trade-Offs                         |
-| ---------------- | ------ | ----------------------------------- | ---------------------------------- |
-| Single lens      | 1      | Simplicity, small form factor       | Distortion, limited FOV            |
-| Galilean system  | 2      | Compact with decent image placement | Narrower FOV, trickier optics      |
-| Keplerian system | 2      | Best clarity and FOV                | Bigger, heavier, real image formed |
+| Setup            | Lenses | Best For                            | Trade-Offs                              |
+| ---------------- | ------ | ----------------------------------- | --------------------------------------- |
+| Single lens      | 1      | Simplicity and small form factor    | Distortion & limited FOV                |
+| Galilean system  | 2      | Compact with decent image placement | Narrower FOV & trickier optics          |
+| Keplerian system | 2      | Best clarity and FOV                | Bigger & heavier & cleaere image formed |
 
 | Material            | Refractive Index (n)  |
 | ------------------- | --------------------- |
