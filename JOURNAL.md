@@ -4,7 +4,7 @@ author: "arp"
 description: "Affordable and sleek Smart AR Glasses to help your lifestyle"
 created_at: "2025-05-23"
 ---
-
+**Total Time Spent:** 47 Hours
 
 # MAY 23rd: Started the major research for some optics
 
@@ -122,3 +122,21 @@ Optical Sim (Top View):
 ![Screenshot 2025-06-12 at 1 18 18 AM](https://github.com/user-attachments/assets/99b74de7-5ea2-4385-9ab9-749323f121ee)
 
 **Session time spent: 6h**
+
+# JUNE 13th: Version 1 is finally done!
+
+I finally finished! I got the main board all routed and used the datasheet specifications to figure out my differential pair routing and length tuning. My CAD is also final, at least from what I can do right now, since the final measurements will come when I can get real-life measurements of the parts and test focal lengths. I dont have much to write for this since I spent all my time just working on the routing, and there isnt really much to say about that. It was challenging to get the layers in order and not have any conflicting paths, but I got there in the end. It looks very messy though :(. Oh also did a color sim for the optics.
+
+Main Board:
+<img width="622" alt="Screenshot 2025-06-13 at 7 20 20 PM" src="https://github.com/user-attachments/assets/ac41a733-495e-4154-bf05-285997981da4" />
+<img width="544" alt="Screenshot 2025-06-13 at 7 10 16 PM" src="https://github.com/user-attachments/assets/cc22e23f-93c0-4b7a-a7ba-60c415722952" />
+<img width="497" alt="Screenshot 2025-06-13 at 7 09 51 PM" src="https://github.com/user-attachments/assets/096f708b-ff3b-4546-837e-66c23d4f193d" />
+
+ColorSim:
+![Screenshot 2025-06-13 at 7 14 47 PM](https://github.com/user-attachments/assets/a8635c24-3d4c-49e7-b48d-491694bb5472)
+
+**Session time spent: 5h**
+
+
+
+
