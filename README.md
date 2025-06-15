@@ -37,9 +37,8 @@ BOM:
 | OV5640 AF Camera module       | 1   | 15           |
 | USBC Data Cable               | 1   | 1.39         |
 | 0.2" FLCOS Display            | 2   | 102.3        |
-| Soldering Misc. (Paste, etc.) | 1   | 40.23        |
 | Shipping                      | 1   | 35.41        |
 | PCB + Stencil                 | 1   | 60           |
 |                               |     |              |
 |                               |     | TOTAL COST:   |
-|                               |     | 350.91        |
+|                               |     | 310.68        |
