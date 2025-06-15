@@ -4,7 +4,7 @@ author: "arp"
 description: "Affordable and sleek Smart AR Glasses to help your lifestyle"
 created_at: "2025-05-23"
 ---
-**Total Time Spent:** 47 Hours
+**Total Time Spent:** 48 Hours
 
 # MAY 23rd: Started the major research for some optics
 
@@ -137,6 +137,14 @@ ColorSim:
 
 **Session time spent: 5h**
 
+# JUNE 13th: New optics design
+
+I repositioned where the optics would be and found a small model of the display to use. The display will be on the temple side, and then use a mirror to reflect the image into the beam splitter. This would let me increase the size of the PCB on top and make things a little easier for me. For testing, I will just use the whole Orange Pi Zero 2W and then move the stuff to the new PCB.
+
+New Optics mount:
+<img width="425" alt="Screenshot 2025-06-14 at 9 45 32 PM" src="https://github.com/user-attachments/assets/e6fe9f93-693e-4e51-924c-03b7d8fe0989" />
+
+**Session time spent: 1h**
 
 
 
