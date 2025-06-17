@@ -27,18 +27,15 @@ BOM:
 | Semi Transperent Mirror       | 2   | 12.44        |
 | 7v to 5v Buck Converter       | 1   | 2.29         |
 | 2S lipo charger module        | 1   | 4.19         |
-| LPDDR4 BGA Stencil            | 1   | 4.66         |
 | Orange Pi Zero 2 W            | 1   | 24           |
-| LPDDR4 BGA Chip (4GB)         | 1   | 4            |
 | LOCA (Optical Clear Glue)     | 1   | 9            |
 | 3.7v 300mah LIPO              | 2   | 7            |
 | Polarizing Beam Splitter Cube | 2   | 24           |
 | MPU 9250                      | 1   | 5            |
+| Clear Acrylic Extrusion       | 1   | 10           |
 | OV5640 AF Camera module       | 1   | 15           |
-| USBC Data Cable               | 1   | 1.39         |
 | 0.2" FLCOS Display            | 2   | 102.3        |
 | Shipping                      | 1   | 35.41        |
-| PCB + Stencil                 | 1   | 60           |
 |                               |     |              |
 |                               |     | TOTAL COST:   |
 |                               |     | 310.68        |
