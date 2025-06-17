@@ -12,9 +12,9 @@ CAD:
 ![Screenshot 2025-06-13 at 7 13 37 PM](https://github.com/user-attachments/assets/cab84248-3f02-4494-96e8-c4291fa2785e)
 
 MainBoard (its ugly I know):
+<img width="765" alt="PCB2" src="https://github.com/user-attachments/assets/d05328ed-7439-4a24-8f66-7015959d2474" />
+<img width="784" alt="PCB1" src="https://github.com/user-attachments/assets/1221dce1-a06c-4e84-b548-efca7f2fc2a8" />
 
-<img width="740" alt="pcb1" src="https://github.com/user-attachments/assets/82f607cb-213b-43c5-af29-2f362f522354" />
-<img width="736" alt="pcb2" src="https://github.com/user-attachments/assets/29250555-abfe-4f28-85b4-f1808daaa65e" />
 
 
 Optical Sim: 
