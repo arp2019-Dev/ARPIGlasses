@@ -146,5 +146,10 @@ New Optics mount:
 
 **Session time spent: 1h**
 
+# JUNE 17th: Starter Code for app and hardware
+
+Worked on the code base for the glasses. The orange pi will handle all the onboard driving and handling in and outs of sensor data and camera, and displays, and then it uses websockets to wirelessly transmit data to my iPhone running an app using SwiftUI ui, where it will then do all the heavy processing there. Right now, I just have a basic code and apple Core ML model for object detection and classification, and then it sends the data back to the Orange Pi, where it displays it. I couldn't fully test since Apple SwiftUI preview doesn't support live image previews, and I also need the IP and network capabilities. But there were no build errors. For libraries, I'm using the Swift Vision and ARKit for handling the CoreML model and AR processing, I'm using AVFoundation for audio input for future proofing, and NWConnection for the TCP socket from Orange Pi to the iPhone. On the Python code, I'm using CV2 and smbus for the camera handling and I2C for the imu, and aiohttp for the websockets
+
+**Session time spent: 7h**
 
 
