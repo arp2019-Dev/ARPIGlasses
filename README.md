@@ -35,7 +35,12 @@ BOM:
 | Clear Acrylic Extrusion       | 1   | 10           |
 | OV5640 AF Camera module       | 1   | 15           |
 | 0.2" FLCOS Display            | 2   | 102.3        |
+| GoPro battery holder          | 1   | 20           |
+| Gopro Front LCD Monochrome    | 1   | 7            |
+| ADXL accelerometer            | 1   | 2            |
+| M3 Inserts                    | 1   | 2            |
+| M2 Screws                     | 1   | 5            |
 | Shipping                      | 1   | 35.41        |
 |                               |     |              |
-|                               |     | TOTAL COST:   |
-|                               |     | 310.68        |
+|                               |     | TOTAL COST:  |
+|                               |     | 350.68       |
