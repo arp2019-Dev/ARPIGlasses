@@ -2,18 +2,16 @@ import pygame
 import time
 import sys
 
-# Initialize Pygame
 pygame.init()
 
-# Set video mode for composite output (Pi config decides actual resolution)
+# Keep your display settings exactly the same
 WIDTH = 640
 HEIGHT = 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Smart Glasses Clock")
 
-pygame.display.set_caption("Rotated Clock")
-
-# Font setup
-font = pygame.font.SysFont("Arial", 120, bold=True)
+# Font
+time_font = pygame.font.SysFont("Arial", 110, bold=True)
 
 clock = pygame.time.Clock()
 
@@ -23,26 +21,26 @@ while True:
             pygame.quit()
             sys.exit()
 
-    # Get current time
-    current_time = time.strftime("%H:%M:%S")
+    # ---- TIME (12-hour, no seconds) ----
+    current_time = time.strftime("%I:%M %p")
 
-    # Render text
-    text_surface = font.render(current_time, True, (255, 255, 255))
+    # Render time
+    time_surface = time_font.render(current_time, True, (255, 255, 255))
 
-    # Make a black background
+    # Clear screen (black)
     screen.fill((0, 0, 0))
 
-    # Rotate by 90 degrees
-    rotated = pygame.transform.rotate(text_surface, 90)
+    # Rotate display 90 degrees (your setup)
+    time_rot = pygame.transform.rotate(time_surface, 90)
 
-    # Flip horizontally + vertically depending on your display
-    flipped = pygame.transform.flip(rotated, True, False)
+    # Flip to match your glasses orientation
+    time_final = pygame.transform.flip(time_rot, True, False)
 
-    # Center it
-    rect = flipped.get_rect(center=(WIDTH//2, HEIGHT//2))
+    # Center the time
+    time_rect = time_final.get_rect(center=(WIDTH // 2, HEIGHT // 2))
 
     # Draw
-    screen.blit(flipped, rect)
+    screen.blit(time_final, time_rect)
 
     pygame.display.update()
-    clock.tick(1)   # Update every second
+    clock.tick(1)
