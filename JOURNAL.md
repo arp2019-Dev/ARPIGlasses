@@ -4,7 +4,7 @@ author: "arp"
 description: "Affordable and sleek Smart AR Glasses to help your lifestyle"
 created_at: "2025-05-23"
 ---
-**Total Time Spent:** 48 Hours
+**Total Time Spent:** 100+ Hours
 
 # MAY 23rd: Started the major research for some optics
 
