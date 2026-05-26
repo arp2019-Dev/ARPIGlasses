@@ -11,10 +11,15 @@ CAD:
 ![Screenshot 2025-06-13 at 7 13 52 PM](https://github.com/user-attachments/assets/fc58f8f2-bcb0-4f0d-b6d2-7d7ca5b731cd)
 ![Screenshot 2025-06-13 at 7 13 37 PM](https://github.com/user-attachments/assets/cab84248-3f02-4494-96e8-c4291fa2785e)
 
-MainBoard (its ugly I know):
-<img width="765" alt="PCB2" src="https://github.com/user-attachments/assets/d05328ed-7439-4a24-8f66-7015959d2474" />
-<img width="784" alt="PCB1" src="https://github.com/user-attachments/assets/1221dce1-a06c-4e84-b548-efca7f2fc2a8" />
+IRL Prototypes:
 
+
+https://github.com/user-attachments/assets/eb63a193-842f-413b-8d05-27ab6500caf9
+
+<img width="5712" height="4284" alt="IMG_4601" src="https://github.com/user-attachments/assets/23b29ec2-d27d-48e1-bfd8-b36f647abec3" />
+<img width="4284" height="5712" alt="IMG_4604" src="https://github.com/user-attachments/assets/ae59e5ae-07de-4950-bbd8-78b4dcbe5a38" />
+<img width="4284" height="5712" alt="IMG_5044" src="https://github.com/user-attachments/assets/a59a2749-52a0-4091-b705-ff5bf151b3d0" />
+<img width="4284" height="5712" alt="IMG_5051" src="https://github.com/user-attachments/assets/13a20497-00cc-4554-b718-7f47dbda6d89" />
 
 
 Optical Sim: 
